@@ -41,13 +41,11 @@ Existing charge pump topologies face limitations:
 | Output Ripple | ≤ 600 mV |
 | Rise Transition | ≤ 1.785 µs |
 
----
 
 ## 🎯 Project Objective
 
 > **To design a charge pump that generates 19 V from a 3.3 V supply using Cadence Virtuoso with 90 nm GPDK.**
 
----
 
 ## 🔩 Methodology
 
@@ -79,12 +77,12 @@ Charge transfer between capacitors results in an output much greater than the su
 | Ripple | Reduced by **36.5 %** | Less switching and jitter |
 
 
-![Dickson Charge Pump Schematic](<img width="1985" height="442" alt="image" src="https://github.com/user-attachments/assets/33f463b5-410f-479c-ac66-78da57af1d3e" /.png>
-)
-![Ripple Calculation](<img width="2000" height="915" alt="image" src="https://github.com/user-attachments/assets/98879975-3328-44ac-b727-3f8806d0374e" /.png>
-)
-![Other Analysis](![Uploading image.png…]()
-)
+<img width="1209" height="641" alt="image" src="https://github.com/user-attachments/assets/5733e5f9-a0f5-4e46-a93f-52e8d4ea6eae" />
+<img width="1196" height="680" alt="image" src="https://github.com/user-attachments/assets/ec1d0ea8-a56a-4b64-bb27-a7a6c73e5992" />
+<img width="1213" height="656" alt="image" src="https://github.com/user-attachments/assets/8d13447b-927d-465f-a3bd-ac87da411132" />
+<img width="1208" height="689" alt="image" src="https://github.com/user-attachments/assets/d953ac38-daf6-4473-b0a7-c092a7f2ba41" />
+<img width="1207" height="684" alt="image" src="https://github.com/user-attachments/assets/99aa5a08-e33a-4cff-b9c8-acb61b1cc30f" />
+
 
 ---
 
@@ -105,6 +103,9 @@ Charge transfer between capacitors results in an output much greater than the su
 - High-voltage drivers for displays and RF systems  
 
 ---
+<img width="1219" height="403" alt="image" src="https://github.com/user-attachments/assets/df5b32ee-f5db-483a-9bc2-32ad44cb06d6" />
+<img width="1222" height="630" alt="image" src="https://github.com/user-attachments/assets/56d69fa5-4841-445c-b98c-621f8caf1508" />
+<img width="1214" height="687" alt="image" src="https://github.com/user-attachments/assets/3aa6e71b-fc86-481c-8356-c71e96ed40d1" />
 
 
 ## 📈 Flow of the Project
