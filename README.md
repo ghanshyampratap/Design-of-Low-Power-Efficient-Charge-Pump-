@@ -1,4 +1,4 @@
-# Design of Low Power & Efficient Charge Pump for Non-Volatile Memory Applications
+# Design of Low Power & Efficient Charge Pump
 
 ##  Introduction
 
