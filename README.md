@@ -78,9 +78,9 @@ Charge transfer between capacitors results in an output much greater than the su
 | Ripple | Reduced by **36.5 %** | Less switching and jitter |
 
 
-![Dickson Charge Pump Schematic](<img width="1985" height="442" alt="image" src="https://github.com/user-attachments/assets/33f463b5-410f-479c-ac66-78da57af1d3e" />
+![Dickson Charge Pump Schematic](<img width="1985" height="442" alt="image" src="https://github.com/user-attachments/assets/33f463b5-410f-479c-ac66-78da57af1d3e" /.png>
 )
-![Ripple Calculation](<img width="2000" height="915" alt="image" src="https://github.com/user-attachments/assets/98879975-3328-44ac-b727-3f8806d0374e" />
+![Ripple Calculation](<img width="2000" height="915" alt="image" src="https://github.com/user-attachments/assets/98879975-3328-44ac-b727-3f8806d0374e" /.png>
 )
 ![Other Analysis](![Uploading image.png…]()
 )
