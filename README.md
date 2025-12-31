@@ -1,22 +1,22 @@
 # Design of Low Power & Efficient Charge Pump for Non-Volatile Memory Applications
 
-## 🧠 Introduction
+##  Introduction
 
 Non-volatile memories (NVMs) — such as **NAND Flash** and **EEPROM** — are fundamental components in SSDs, smartphones, USB drives, and embedded systems. These memories require **high voltage levels (10–20 V)** for program/erase operations, whereas the supply voltage is typically only **1.2–3.3 V**.  
 
 A **charge pump** is an on-chip voltage multiplier that generates these high voltages without external components.  
 
-### 🔑 Key Challenges
+### Key Challenges
 - Low power consumption  
 - High efficiency  
 - Reduced ripple  
 - Compact CMOS integration  
 
-### ✅ Integration Advantage
+### Integration Advantage
 Fully integrated CMOS charge pumps eliminate external high-voltage sources, making the system **more compact and cost-effective**.
 
 
-## 🧾 Problem Statement
+## Problem Statement
 Existing charge pump topologies face limitations:
 - Poor efficiency metrics for regulated outputs  
 - Low power only at low supply voltages  
@@ -30,7 +30,7 @@ Existing charge pump topologies face limitations:
 
 
 
-## ⚙️ Design Specifications
+## Design Specifications
 
 | Parameter | Value |
 |------------|--------|
@@ -45,7 +45,7 @@ Existing charge pump topologies face limitations:
 
 
 
-## 🎯 Project Objective
+## Project Objective
 
 > **To design a charge pump that generates 19 V from a 3.3 V supply using Cadence Virtuoso with 90 nm GPDK.**
 
@@ -53,7 +53,7 @@ Existing charge pump topologies face limitations:
 
 
 
-## 🧮 Design Topologies Tested
+## Design Topologies Tested
 
 1. **Dickson Charge Pump** – Simple, area-efficient, but suffers from threshold voltage (Vth) drop.  
 2. **Cross-Coupled Charge Pump** – Cancels Vth drops for higher efficiency.  
@@ -62,7 +62,7 @@ Existing charge pump topologies face limitations:
 
 
 
-## 🧰 Simulation Results (90 nm)
+## Simulation Results (90 nm)
 
 | Metric | Observation | Improvement |
 |---------|--------------|--------------|
@@ -83,14 +83,14 @@ Existing charge pump topologies face limitations:
 
 
 
-## 💡 Advantages
+## Advantages
 
 - Reduced ripple → reliable memory operation  
 - Higher efficiency → energy saving in portable devices  
 - Adaptive control → better performance under variable loads  
 - Compact CMOS design → low-cost integration  
 
-## 🧩 Applications
+## Applications
 
 - NAND Flash & EEPROM in SSDs, smartphones, and USB drives  
 - Low-power embedded systems and IoT devices  
@@ -102,7 +102,7 @@ Existing charge pump topologies face limitations:
 <img width="1214" height="687" alt="image" src="https://github.com/user-attachments/assets/3aa6e71b-fc86-481c-8356-c71e96ed40d1" />
 
 
-## 📈 Flow of the Project
+## Flow of the Project
 
 1. Literature Review  
 2. Circuit Design & Simulation  
@@ -111,7 +111,7 @@ Existing charge pump topologies face limitations:
 5. Integration in NVM Systems  
 
 
-## 🏁 Conclusion
+## Conclusion
 
 The proposed **low-power Dickson charge pump** in 90 nm technology achieves:
 - Significant reduction in power consumption  
@@ -121,14 +121,14 @@ The proposed **low-power Dickson charge pump** in 90 nm technology achieves:
 
 This makes it ideal for **non-volatile memory (NVM)** and **low-power embedded applications**.
 
-## 🚀 Future Work
+## Future Work
 
 - Optimize **W/L ratios** for best performance in power, efficiency, rise time, and ripple  
 - Analyze **body effect** impact on output voltage  
 - Reduce the number of stages without compromising performance  
 - Integrate the design in **NVM applications**
 
-## 📚 References
+##  References
 
 1. Jamuna, S. et al. (2025). *Design and Analysis of Multi-Level Voltage Generator for NAND Flash Operations Using a Reference Voltage Controlled Charge Pump.* Research Square Preprints, rs-6867812.  
 2. Lin, Z. et al. (2025). *A Novel Multi-Mode Charge Pump in Word Line Driver for Compute-in-Memory Arrays.* Electronics, 14(2), 175.  
