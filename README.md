@@ -17,7 +17,6 @@ Fully integrated CMOS charge pumps eliminate external high-voltage sources, maki
 
 
 ## 🧾 Problem Statement
-
 Existing charge pump topologies face limitations:
 - Poor efficiency metrics for regulated outputs  
 - Low power only at low supply voltages  
