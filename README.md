@@ -47,25 +47,12 @@ Existing charge pump topologies face limitations:
 > **To design a charge pump that generates 19 V from a 3.3 V supply using Cadence Virtuoso with 90 nm GPDK.**
 
 
-## 🔩 Methodology
-
-The design uses a **dual-phase charge pump** controlled by two non-overlapping clock signals.  
-For *N* stages:
-\[
-V_{out} = V_{DD} + N(V_{DD} - V_d)
-\]
-
-Charge transfer between capacitors results in an output much greater than the supply voltage.
-
----
-
 ## 🧮 Design Topologies Tested
 
 1. **Dickson Charge Pump** – Simple, area-efficient, but suffers from threshold voltage (Vth) drop.  
 2. **Cross-Coupled Charge Pump** – Cancels Vth drops for higher efficiency.  
 3. **Charge Transfer Switch Pump** – Uses transmission gate-style switches for very low threshold loss.
 
----
 
 ## 🧰 Simulation Results (90 nm)
 
@@ -84,16 +71,12 @@ Charge transfer between capacitors results in an output much greater than the su
 <img width="1207" height="684" alt="image" src="https://github.com/user-attachments/assets/99aa5a08-e33a-4cff-b9c8-acb61b1cc30f" />
 
 
----
-
 ## 💡 Advantages
 
 - Reduced ripple → reliable memory operation  
 - Higher efficiency → energy saving in portable devices  
 - Adaptive control → better performance under variable loads  
 - Compact CMOS design → low-cost integration  
-
----
 
 ## 🧩 Applications
 
@@ -102,7 +85,6 @@ Charge transfer between capacitors results in an output much greater than the su
 - On-chip power management ICs  
 - High-voltage drivers for displays and RF systems  
 
----
 <img width="1219" height="403" alt="image" src="https://github.com/user-attachments/assets/df5b32ee-f5db-483a-9bc2-32ad44cb06d6" />
 <img width="1222" height="630" alt="image" src="https://github.com/user-attachments/assets/56d69fa5-4841-445c-b98c-621f8caf1508" />
 <img width="1214" height="687" alt="image" src="https://github.com/user-attachments/assets/3aa6e71b-fc86-481c-8356-c71e96ed40d1" />
@@ -116,7 +98,6 @@ Charge transfer between capacitors results in an output much greater than the su
 4. Efficiency & Ripple Analysis  
 5. Integration in NVM Systems  
 
----
 
 ## 🏁 Conclusion
 
@@ -128,7 +109,6 @@ The proposed **low-power Dickson charge pump** in 90 nm technology achieves:
 
 This makes it ideal for **non-volatile memory (NVM)** and **low-power embedded applications**.
 
----
 ## 🚀 Future Work
 
 - Optimize **W/L ratios** for best performance in power, efficiency, rise time, and ripple  
