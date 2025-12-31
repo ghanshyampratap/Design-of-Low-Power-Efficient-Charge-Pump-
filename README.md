@@ -25,7 +25,7 @@ Existing charge pump topologies face limitations:
 - High ripple and low peak efficiency (~49%)  
 - Use of outdated 180 nm process technologies  
 
-![Block Diagram]<img width="1184" height="665" alt="image" src="https://github.com/user-attachments/assets/46034b89-4f95-4b94-9ba5-75c5ee75bbd9" />
+<img width="1184" height="665" alt="image" src="https://github.com/user-attachments/assets/46034b89-4f95-4b94-9ba5-75c5ee75bbd9" />
 
 
 
