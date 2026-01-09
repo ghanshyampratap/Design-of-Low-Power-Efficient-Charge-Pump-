@@ -99,7 +99,8 @@ Existing charge pump topologies face limitations:
 
 <img width="1219" height="403" alt="image" src="https://github.com/user-attachments/assets/df5b32ee-f5db-483a-9bc2-32ad44cb06d6" />
 <img width="1222" height="630" alt="image" src="https://github.com/user-attachments/assets/56d69fa5-4841-445c-b98c-621f8caf1508" />
-<img width="1214" height="687" alt="image" src="https://github.com/user-attachments/assets/3aa6e71b-fc86-481c-8356-c71e96ed40d1" />
+<img width="1088" height="648" alt="image" src="https://github.com/user-attachments/assets/282cfc2b-6955-4d5c-8883-6dca34e4c0b5" />
+
 
 
 ## Flow of the Project
